@@ -2,8 +2,8 @@ const express = require('express')
 const mongoose = require('mongoose')
 const morgan = require('morgan')
 const path =  require('path')
-// const routes = require('./routes/api')
-// const Workout = require('./models/Workout')
+const routes = require('./routes/api')
+const Workout = require('./models/Workout')
 
 const PORT = process.env.PORT || 3001
 const app = express()
