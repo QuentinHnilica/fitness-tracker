@@ -27,7 +27,7 @@ db.on('error', error => console.log('DB Error', error))
 app.use('/stats', express.static(path.join(__dirname, 'public/stats.html')))
 app.use('/exercise', express.static(path.join(__dirname, 'public/exercise.html')))
 
-app.use(routes)
+//app.use(routes)
 
 
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`))
