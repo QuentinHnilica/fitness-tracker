@@ -13,6 +13,7 @@
  [Contributions](#contributions)
  [Contact](#contact)
 
+![image](Fitness-Tracker.png)
   ## Installation
   npm i
   
